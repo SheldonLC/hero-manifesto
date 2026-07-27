@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you reference The Hero Manifesto, please cite the Founding Edition using this metadata."
+title: "The Hero Manifesto"
+type: generic
+version: 1.1.0
+date-released: 2026-07-27
+authors:
+  - family-names: Yin
+    given-names: Bo
+repository-code: "https://github.com/SheldonLC/hero-manifesto"
+url: "https://sheldonlc.github.io/hero-manifesto/"
+abstract: "An organizational declaration for human accountability, leadership, and collective action in the age of abundant intelligence."
+keywords:
+  - organizational manifesto
+  - human-centered AI
+  - responsible AI
+  - AI governance
+  - organizational design
+  - leadership
+  - future of work
+  - collective intelligence
