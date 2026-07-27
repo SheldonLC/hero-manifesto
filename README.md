@@ -1,14 +1,14 @@
-# Hero Canon
+# The Hero Manifesto
 
-Hero Canon is a bilingual publication for the age of abundant intelligence. This repository contains the web and PDF editions of the founding Hero documents.
+The Hero Manifesto is an organizational declaration for the age of abundant intelligence: a concise operating language for human accountability, leadership, and collective action.
 
 ## Read Online
 
-- [Hero Canon publication home](https://sheldonlc.github.io/hero/)
-- [Hero Brand Book - English](https://sheldonlc.github.io/hero/000-hero-brand-book/en/)
-- [Hero Brand Book - Chinese](https://sheldonlc.github.io/hero/000-hero-brand-book/zh-CN/)
-- [The Hero Manifesto - English](https://sheldonlc.github.io/hero/001-the-hero-manifesto/en/)
-- [The Hero Manifesto - Chinese](https://sheldonlc.github.io/hero/001-the-hero-manifesto/zh-CN/)
+- [The Hero Manifesto publication home](https://sheldonlc.github.io/hero-manifesto/)
+- [Hero Brand Book - English](https://sheldonlc.github.io/hero-manifesto/000-hero-brand-book/en/)
+- [Hero Brand Book - Chinese](https://sheldonlc.github.io/hero-manifesto/000-hero-brand-book/zh-CN/)
+- [The Hero Manifesto - English](https://sheldonlc.github.io/hero-manifesto/001-the-hero-manifesto/en/)
+- [The Hero Manifesto - Chinese](https://sheldonlc.github.io/hero-manifesto/001-the-hero-manifesto/zh-CN/)
 
 ## PDF Editions
 
