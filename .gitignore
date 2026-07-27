@@ -1,0 +1,9 @@
+# Local build and validation artifacts
+/build/
+/build.ps1
+/evidence/
+/publication-manifest.json
+
+# OS files
+.DS_Store
+Thumbs.db
