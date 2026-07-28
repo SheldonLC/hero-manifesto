@@ -3,6 +3,7 @@
 /build.ps1
 /evidence/
 /publication-manifest.json
+/*.7z
 
 # OS files
 .DS_Store

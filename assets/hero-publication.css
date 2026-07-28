@@ -7,7 +7,7 @@
   --hero-gray-600: #5b5b5b;
   --hero-display-en: Bahnschrift, "Arial Narrow", sans-serif;
   --hero-body-en: Constantia, Georgia, serif;
-  --hero-zh: "Noto Sans SC", "Microsoft YaHei", sans-serif;
+  --hero-zh: "Source Han Sans SC", "Noto Sans CJK SC", "Noto Sans SC", "Microsoft YaHei", "PingFang SC", sans-serif;
   --hero-display: var(--hero-display-en);
   --hero-body: var(--hero-body-en);
   --hero-mono: Bahnschrift, Consolas, monospace;
@@ -785,9 +785,9 @@ pre {
   .site-header, .reading-progress, .toc { display: none !important; }
   .publication-shell { display: block; padding: 0; }
   .canon-section {
-    min-height: 297mm;
+    min-height: auto;
     display: block;
-    padding: 18mm 18mm 20mm;
+    padding: 18mm 18mm 0;
     border: 0;
     break-before: page;
   }

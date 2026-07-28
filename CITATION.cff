@@ -2,8 +2,8 @@ cff-version: 1.2.0
 message: "If you reference The Hero Manifesto, please cite the Founding Edition using this metadata."
 title: "The Hero Manifesto"
 type: generic
-version: 1.1.0
-date-released: 2026-07-27
+version: 1.2.0
+date-released: 2026-07-28
 authors:
   - family-names: Yin
     given-names: Bo
