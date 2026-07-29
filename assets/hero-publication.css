@@ -255,6 +255,24 @@ body[data-language="zh-CN"] .section-title {
   margin: 0 0 24px;
 }
 
+.section-body p:has(> small) {
+  max-width: 720px;
+  margin-bottom: 38px;
+}
+
+.section-body p > small {
+  display: block;
+  padding: 16px 0 16px 20px;
+  border-left: 3px solid var(--hero-gray-300);
+  color: var(--hero-gray-600);
+  font-size: 0.78em;
+  line-height: 1.58;
+}
+
+.section-body p > small em {
+  font-style: normal;
+}
+
 .section-body ul,
 .section-body ol {
   margin: 24px 0 32px;
@@ -774,6 +792,11 @@ pre {
 
 @page {
   size: A4;
+  margin: 14mm 0;
+}
+
+@page hero-full-bleed {
+  size: A4;
   margin: 0;
 }
 
@@ -787,7 +810,7 @@ pre {
   .canon-section {
     min-height: auto;
     display: block;
-    padding: 18mm 18mm 0;
+    padding: 4mm 18mm 0;
     border: 0;
     break-before: page;
   }
@@ -797,11 +820,13 @@ pre {
   .section-title { margin-bottom: 8mm; font-size: 28pt; }
   body[data-language="zh-CN"] .section-title { font-size: 25pt; line-height: 1.2; }
   .section-body p { margin-bottom: 4mm; orphans: 3; widows: 3; }
+  .section-body p:has(> small) { margin-bottom: 7mm; break-inside: avoid-page; }
+  .section-body p > small { padding: 3mm 0 3mm 4mm; font-size: 8pt; }
   .section-body li { orphans: 3; widows: 3; }
   .section-body h3 { margin: 10mm 0 5mm; font-size: 18pt; }
   h2, h3, h4 { break-after: avoid-page; }
   blockquote, .key-idea, table, thead, tr, pre, .diagram, .metadata-grid div { break-inside: avoid-page; }
-  .cover-section { min-height: 297mm; padding: 0; color: var(--hero-white); background: var(--hero-black) !important; }
+  .cover-section { page: hero-full-bleed; min-height: 297mm; padding: 0; color: var(--hero-white); background: var(--hero-black) !important; }
   .cover-grid { height: 297mm; min-height: 297mm; }
   .cover-content { height: 297mm; min-height: 297mm; padding: 20mm 16mm 16mm; }
   .cover-footer { position: absolute; right: 16mm; bottom: 16mm; left: 16mm; margin: 0; }
@@ -810,6 +835,7 @@ pre {
   body[data-language="zh-CN"] .cover-title { font-size: 35pt; }
   .cover-tagline { font-size: 16pt; }
   .feature-section {
+    page: hero-full-bleed;
     min-height: 297mm;
     display: flex;
     align-items: center;

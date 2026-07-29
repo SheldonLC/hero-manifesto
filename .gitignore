@@ -4,6 +4,8 @@
 /evidence/
 /publication-manifest.json
 /*.7z
+assets/*.bak_*
+versions/**/publication-manifest*.json
 
 # OS files
 .DS_Store
